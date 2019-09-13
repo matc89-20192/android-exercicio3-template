@@ -83,11 +83,11 @@ public class CorrecaoTest {
     @Test
     public void prioridadeInvalida() {
         insereTarefa("abc", "11");
-        checaToast("A prioridade deve estar entre 0 e 10.");
+        checaToast("A prioridade deve estar entre 1 e 10.");
         checaTamanhoDaLista(0);
 
         insereTarefa("abc", "0");
-        checaToast("A prioridade deve estar entre 0 e 10.");
+        checaToast("A prioridade deve estar entre 1 e 10.");
         checaTamanhoDaLista(0);
     }
 

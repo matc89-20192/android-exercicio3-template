@@ -9,4 +9,4 @@ A interface gráfica está ilustrada na imagem `screenshot.png` nesta pasta. O b
 Mensagens:
 
 - Ao tentar inserir uma tarefa com a mesma descrição de uma tarefa da lista, o aplicativo deve exibir um `Toast` com o texto "Tarefa já cadastrada."
-- Ao tentar inserir uma tarefa com prioridade inválida, o aplicativo deve exibir um `Toast` com o texto "A prioridade deve estar entre 0 e 10.".
+- Ao tentar inserir uma tarefa com prioridade inválida, o aplicativo deve exibir um `Toast` com o texto "A prioridade deve estar entre 1 e 10.".
